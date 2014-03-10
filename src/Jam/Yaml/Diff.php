@@ -50,7 +50,6 @@ class Diff
 		$keysto   = array_keys($to);
 
 		while($key = array_shift($keysfrom)) {
-
 			if(!in_array($key, $keysto)) {
 				$result->addKeyToBeRemoved($index . $key . ':', $from[$key]);
 				continue;

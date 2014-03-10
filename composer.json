@@ -1,6 +1,9 @@
 {
 
 	"require" : {
-		"symfony/yaml"	:	"*"
+		"symfony/yaml"	:	"*",
+
+	
+	"twig/twig": "1.*"
 	}
 }
